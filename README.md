@@ -1,0 +1,73 @@
+# Psych 290Q Online Experiments for Psychologists
+
+- UC Berkeley Cognition Seminar, Spring 2023, 2 Units
+- Tu & Thu 3pm - 4pm Berkeley Way West 1213
+- Instructor: Bill Thompson [wdt@berkeley.edu](mailto:wdt@berkeley.edu)
+- Office hours: Friday 3pm - 4pm, 3rd Floor BWW or Zoom, Sign up for a slot here: [Google calendar](https://calendar.app.google/DAvThSyG4rzFbwET9)
+- Course website: [ecl-ucb.github.com/290Q](ecl-ucb.github.com/290Q)
+- In the course catalogue: [classes.berkeley.edu](https://classes.berkeley.edu/content/2023-spring-psych-290q-001-sem-001)
+- Course project due: Friday April 28th [tentative]
+
+
+## Course Description
+A practical introduction to web-based behavioral experiments. We will learn to build experiments using [JsPsych](https://www.jspsych.org/7.3/), a JavaScript framework for creating experiments that run in a web browser. The goal of this course is for each student to create a new experiment that furthers their research. 
+
+First, we will cover relevant basics of HTML and JavaScript and the core functionality of JsPsych. Next, we will cover more advanced experimental designs (e.g. custom tasks, dynamically structured procedures). Finally, we will learn how to host a JsPsych experiment using [Dallinger](https://github.com/Dallinger/Dallinger) and deploy the experiment to online recruitment platforms such as [Prolific](https://www.prolific.co/) or [Amazon’s Mechanical Turk](https://www.mturk.com/). 
+
+The course is primarily lab-based and goal-oriented. Minimal required work outside of class. May include occasional readings relating to the merits and limitations of web-based experimental methods. The primary assessment is a course project – the design and implementation of a working experiment you would like to run. I may ask people to submit short code-based check-in assignments along the way.
+
+## Lab Sessions
+Each lab session, I will introduce a notebook containing jsPsych code. You will then read through the code, copy it into a file on your computer, run it, and potentially edit it. Lab sessions from 03/21 onwards will involve writing your own code to create your experiment.
+
+**Please bring your own laptop to class**. 
+If this is not practical for you, let me know and I will be happy to arrange an alternative.
+
+## Schedule
+The schedule below is tentative.
+
+| Date       | Day | Topic                                | Class Materials |
+| ---------- | --- | ------------------------------------ | --------------- |
+| 01/17/2023 | Tue | Course Introduction                  |                 |
+| 01/19/2023 | Thu | Developer Tools and HTML Basics      | Lab 1: [tools-and-html.md)](assets/tools-and-html.md) |
+| 01/24/2023 | Tue | Javascript Basics (Part 1)           | Lab 2: [javascript-basics.md)](assets/javascript-basics.md) |
+| 01/26/2023 | Thu | Javascript Basics (Part 2)           | Lab 2: [javascript-basics.md)](assets/javascript-basics.md) |
+| 01/31/2023 | Tue | Creating an experiment with jspsych  |                 |
+| 02/02/2023 | Thu | Catch-up lab                         |                 |
+| 02/07/2023 | Tue | Building a timeline (Part 1)         |                 |
+| 02/09/2023 | Thu | Building a timeline (Part 2)         |                 |
+| 02/14/2023 | Tue | Plugins (Part 1)                     |                 |
+| 02/16/2023 | Thu | Plugins (Part 2)                     |                 |
+| 02/21/2023 | Tue | Catch-up lab                         |                 |
+| 02/23/2023 | Thu | Catch-up lab                         |                 |
+| 02/28/2023 | Tue | Dynamic parameters                   |                 |
+| 03/02/2023 | Thu | Data: Interaction and storage        |                 |
+| 03/07/2023 | Tue | Data: Interaction and storage        |                 |
+| 03/09/2023 | Thu | Experiment-level Settings and Events |                 |
+| 03/14/2023 | Tue | Catch-up lab                         |                 |
+| 03/16/2023 | Thu | Catch-up lab                         |                 |
+| 03/21/2023 | Tue | Planning Week: your experiment       |                 |
+| 03/23/2023 | Thu | Planning Week: your experiment       |                 |
+| 03/28/2023 | Tue | Spring Recess                        |                 |
+| 03/30/2023 | Thu | Spring Recess                        |                 |
+| 04/04/2023 | Tue | Hosting an experiment online         |                 |
+| 04/06/2023 | Thu | Hosting an experiment online         |                 |
+| 04/11/2023 | Tue | Interacting with prolific/mturk      |                 |
+| 04/13/2023 | Thu | Interacting with prolific/mturk      |                 |
+| 04/18/2023 | Tue | Building your experiement            |                 |
+| 04/20/2023 | Thu | Building your experiement            |                 |
+| 04/25/2023 | Tue | Building your experiement            |                 |
+| 04/27/2023 | Thu | Building your experiement            |                 | 
+
+
+## Assessments 
+
+### Course Project
+Build an experiment that contributes to your research. Due at the end of the course, probably Friday 28th April. I will be your first participant (unless your experiment is really long): submit code that I can run, and a single page text summary of your experiment. More details to follow.
+**Grade Proportion**: 75%
+
+### Attendance, Engagement, Peer Support
+This is a practical lab-based course. Please try to attend the lab sessions. Think of this class as a collective learning enterprise. Even expert coders get stuck: helping your fellow students solve problems and find bugs is a great way to improve your own learning as well as other people's and to keep the class moving on schedule. 
+**Grade Proportion**: 25%   
+
+## Acknowledgements
+Substantial inspiration from the [JsPsych Tutorials](https://www.jspsych.org/7.0/tutorials/hello-world/) and from [Kenny Smith](http://www.lel.ed.ac.uk/~kenny/)'s Course [Online Experiments for Language Scientists](https://kennysmithed.github.io/oels2022/). 
