@@ -1,7 +1,5 @@
 # Psych 290Q Online Experiments for Psychologists
 
--- 
-
 <img src="assets/290Q-DALL-E.png" alt="290Q" width="300"/>
 
 UC Berkeley Cognition Seminar, Spring 2023, 2 Units
@@ -33,10 +31,10 @@ The schedule below is tentative.
 
 | Date       | Day | Topic                                | Class Materials |
 | ---------- | --- | ------------------------------------ | --------------- |
-| 01/17/2023 | Tue | Course Introduction                  |                 |
-| 01/19/2023 | Thu | Developer Tools and HTML Basics      | Lab 1: [tools-and-html.md)](assets/tools-and-html.md) |
-| 01/24/2023 | Tue | Javascript Basics (Part 1)           | Lab 2: [javascript-basics.md)](assets/javascript-basics.md) |
-| 01/26/2023 | Thu | Javascript Basics (Part 2)           | Lab 2: [javascript-basics.md)](assets/javascript-basics.md) |
+| 01/17/2023 | Tue | Course Introduction                  | Lab 1: [welcome.md](assets/labs/L1-course-intro/welcome.md) |
+| 01/19/2023 | Thu | Developer Tools and HTML Basics      | Lab 2: [tools-and-html.md](assets/labs/L2-intro-html/tools-and-html.md) |
+| 01/24/2023 | Tue | Javascript Basics (Part 1)           | |
+| 01/26/2023 | Thu | Javascript Basics (Part 2)           | |
 | 01/31/2023 | Tue | Creating an experiment with jspsych  |                 |
 | 02/02/2023 | Thu | Catch-up lab                         |                 |
 | 02/07/2023 | Tue | Building a timeline (Part 1)         |                 |
