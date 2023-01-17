@@ -84,6 +84,9 @@ The schedule below is tentative.
 | 04/25/2023 | Tue | Building your experiement            |                 |
 | 04/27/2023 | Thu | Building your experiement            |                 | 
 
+## Readings and Alternative Frameworks?
+Would people like to survey the web frameworks out there? Would people like to cover readings about inovation in this space, e.g. gamification, network based experiments, citizen science, etc?
+
 
 ## Teaching philosophy
 
