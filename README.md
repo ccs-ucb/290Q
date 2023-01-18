@@ -7,7 +7,7 @@ UC Berkeley Cognition Seminar, Spring 2023, 2 Units
 - Tu & Thu 3pm - 4pm Berkeley Way West 1213
 - Instructor: Bill Thompson [wdt@berkeley.edu](mailto:wdt@berkeley.edu)
 - Office hours: Friday 3pm - 4pm, 3rd Floor BWW or Zoom, Sign up for a slot here: [Google calendar](https://calendar.app.google/DAvThSyG4rzFbwET9)
-- Course website: [ecl-ucb.github.com/290Q](ecl-ucb.github.com/290Q)
+- Course website: [github.com/ecl-ucb/290Q](https://github.com/ecl-ucb/290Q)
 - bCourses site: [290Q bCourses](https://bcourses.berkeley.edu/courses/1522687)
 - In the course catalogue: [classes.berkeley.edu](https://classes.berkeley.edu/content/2023-spring-psych-290q-001-sem-001)
 - Course project due: Friday April 28th [tentative]
@@ -72,6 +72,21 @@ Build an experiment that contributes to your research. Due at the end of the cou
 ### Attendance, Engagement, Peer Support
 This is a practical lab-based course. Please try to attend the lab sessions. Think of this class as a collective learning enterprise. Even expert coders get stuck: helping your fellow students solve problems and find bugs is a great way to improve your own learning as well as other people's and to keep the class moving on schedule. 
 **Grade Proportion**: 25%   
+
+## Potential Readings
+
+### Games and Gamification
+
+[How games can make behavioural science better](https://www.nature.com/articles/d41586-023-00065-6)
+
+### Data Quality Online
+
+[Data quality of platforms and panels for online behavioral research](https://link.springer.com/article/10.3758/s13428-021-01694-3)
+
+[Prolific's Attention and Comprehension Check Policy](https://researcher-help.prolific.co/hc/en-gb/articles/360009223553-Prolific-s-Attention-and-Comprehension-Check-Policy)
+
+
+
 
 ## Acknowledgements
 Substantial inspiration from the [JsPsych Tutorials](https://www.jspsych.org/7.0/tutorials/hello-world/) and from [Kenny Smith](http://www.lel.ed.ac.uk/~kenny/)'s Course [Online Experiments for Language Scientists](https://kennysmithed.github.io/oels2022/). 
