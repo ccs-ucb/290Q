@@ -2,6 +2,9 @@
 
 A whirlwind introduction to the basics of HTML and the tools you will need to write and debug HTML code. 
 
+<img src="page/images/dalle_surreal.png" alt="coding" width="250"/>
+<!-- Image create by [DALL-E](https://labs.openai.com/) -->
+
 ## Developer Tools
 
 ### Text Editor
@@ -241,7 +244,7 @@ p {
 
 Here, we're choosing to apply styling to paragraphs by selecting the `p` elements, and declaring the value `green` for the property `color`. Here's an explanation of the syntax taken from [this page](https://www.w3schools.com/css/css_syntax.asp).
 
-![alt text](page/images/css_explained.jpg "css")
+![css explained](page/images/css_explained.jpg "css")
 
 From the tutorial page:
 >The selector points to the HTML element you want to style.
