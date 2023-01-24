@@ -33,7 +33,7 @@ The schedule below is tentative.
 | ---------- | --- | ------------------------------------ | --------------- |
 | 01/17/2023 | Tue | Course Introduction                  | Lab 1: [welcome.md](assets/labs/L1-course-intro/welcome.md) |
 | 01/19/2023 | Thu | Developer Tools and HTML Basics      | Lab 2: [tools-and-html.md](assets/labs/L2-intro-html/tools-and-html.md) |
-| 01/24/2023 | Tue | Javascript Basics (Part 1)           | |
+| 01/24/2023 | Tue | Javascript Basics (Part 1)           | Lab 3: [javascript-basics-1.md](assets/labs/L3-intro-javascript/javascript-basics-1.md) |
 | 01/26/2023 | Thu | Javascript Basics (Part 2)           | |
 | 01/31/2023 | Tue | Creating an experiment with jspsych  |                 |
 | 02/02/2023 | Thu | Catch-up lab                         |                 |
@@ -84,6 +84,10 @@ This is a practical lab-based course. Please try to attend the lab sessions. Thi
 [Data quality of platforms and panels for online behavioral research](https://link.springer.com/article/10.3758/s13428-021-01694-3)
 
 [Prolific's Attention and Comprehension Check Policy](https://researcher-help.prolific.co/hc/en-gb/articles/360009223553-Prolific-s-Attention-and-Comprehension-Check-Policy)
+
+### Designing Experiments and Open Science
+
+[Experimentology: An Open Science Approach to Experimental Psychology Methods](https://experimentology.io/)
 
 
 
