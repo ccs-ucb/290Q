@@ -1,6 +1,10 @@
 # Lab 2: A Basic Introduction to JavaScript
 
-A whirlwind introduction to the basics of Javascript.
+A whirlwind introduction to the basics of Javascript. The plan:
+
+- Setup (creating a new page to run and edit your code)
+- Creating Variables: numbers, strings, arrays
+- Manipulating HTML elements: selecting and editing html elements
 
 ## Setup
 
@@ -123,7 +127,7 @@ var myText =  "My favorite number is: "
 var result = myText + myFavoriteNumber
 ```
 
-**Excersise:** Edit your Javascript code to include a string variable describing introducing  
+**Excersise:** Edit your Javascript code to include a string variable that concatenates two strings and adds a number to the end of the resulting string. Log the result to the Javascript console.  
 
 ### Storing information in arrays
 
