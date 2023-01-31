@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<body>
+
+		<h1>JavaScript Introduction</h1>
+
+		<p>In this tutorial, we will learn how to use javascript to create variables and functions, and use these to modify your html code.</p>
+
+		<!-- Here's an empty paragraph (a paragraph object with no text in it) 
+		-- we will use javascript to add text here ) -->
+		<p id="tutorial_paragraph"></p>
+
+		<!-- Here's where our javascript code will go -->
+		<script>
+			var myParagraph = document.getElementById("tutorial_paragraph")
+			var myNewHTML = "<hr><strong>Attention:</strong> Please read the instructions carefully.<hr>"
+			myParagraph.innerHTML = myNewHTML
+		</script>
+
+	</body>
+</html>
