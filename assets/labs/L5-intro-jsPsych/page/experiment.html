@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>My first jsPsych experiment</title>
+    <!-- import jsPsych -->
+    <script src="https://unpkg.com/jspsych@7.0.0"></script>
+    
+    <!-- import the html-keyboard-response plugin -->
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.0.0"></script>
+  </head>
+  
+  <body>
+
+  	<!-- jsPsych code goes here -->
+  	<script type="text/javascript">
+
+  		// initialize jsPsych
+  		var jsPsych = initJsPsych();
+
+  		// setup a timeline object 
+  		var timeline = [];
+
+  		// create a trial using the jsPsychHtmlKeyboardResponse plugin
+		var keyboardTrial = {
+			type: jsPsychHtmlKeyboardResponse,
+			stimulus: '<h1>Click any button to finish the experiment.</h1>'
+		}
+		
+		// add the trial to the timeline
+		timeline.push(keyboardTrial)
+
+		// run the experiment
+		jsPsych.run(timeline);
+
+  	</script>
+  </body>
+
+</html>
