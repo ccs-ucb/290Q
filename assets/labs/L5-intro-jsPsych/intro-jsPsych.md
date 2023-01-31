@@ -58,7 +58,7 @@ var timeline = [];
 
 var keyboardTrial = {
 	type: jsPsychHtmlKeyboardResponse,
-	stimulus: '<h1>Click any button to finish the experiment.</h1>'
+	stimulus: '<h1>Press any key to finish the experiment.</h1>'
 }
 
 timeline.push(keyboardTrial)
@@ -94,6 +94,9 @@ In total then, our code should look something like this:
     <title>My first jsPsych experiment</title>
     <!-- import jsPsych -->
     <script src="https://unpkg.com/jspsych@7.0.0"></script>
+
+    <!-- import  the jsPsych styling file -->
+    <link href="https://unpkg.com/jspsych@7.3.1/css/jspsych.css" rel="stylesheet" type="text/css" />
     
     <!-- import the html-keyboard-response plugin -->
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.0.0"></script>
@@ -113,7 +116,7 @@ In total then, our code should look something like this:
   		// create a trial using the jsPsychHtmlKeyboardResponse plugin
 		var keyboardTrial = {
 			type: jsPsychHtmlKeyboardResponse,
-			stimulus: '<h1>Click any button to finish the experiment.</h1>'
+			stimulus: '<h1>Press any key to finish the experiment.</h1>'
 		}
 
 		// add the trial to the timeline
@@ -128,11 +131,4 @@ In total then, our code should look something like this:
 </html>
 ```
 
-
-
-
-
-
-
-
-
+**Checkpoint 1:** You should now be able to load your page and see the heading `"Press any key..."`, which will go away when you press a key.
