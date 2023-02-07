@@ -6,11 +6,11 @@ Today we will cover:
 2. Grouping and repeating trials
 3. Conditional trials
 4. Looping trials
-5. Dynamic trials
+5. Excersise
 
 ## Setup and Recap
 
-Last lab, we created a simple timeline with multiple trials. Let's pick up there. Create a new file called experiment.html and add the following code:
+Last lab, we created a simple timeline with multiple trials. Let's pick up there. Create a new file called `experiment.html` and add the following code:
 
 ```html
 <!DOCTYPE html>
@@ -77,11 +77,14 @@ Last lab, we created a simple timeline with multiple trials. Let's pick up there
 
 ## Grouping and Repeating trials
 
-In the code above, we have some instructions and then a single `jsPsychImageKeyboardResponse` trial. We could add more trials individually to the timeline, but often it is useful to create groups of trials, and then re-use those groups of trials multiple times. 
+In the code above, we have some instructions and then a single `jsPsychImageKeyboardResponse` trial. The simplest option for building a more complex timeline would be to add more trials to the timeline individually.
 
-For example, we may wish to present a fixation cross before presnting a stimulus briefly and then collecting a response. We might want to repeat this trial structure multiple times. Here's one way we could achieve this kind of grouping and repeating using jsPsych.
+But often it may be useful to create groups of trials, and then re-use those groups of trials multiple times. For example, we may wish to present a fixation cross before presnting a stimulus briefly and then collecting a response. We might then want to repeat this trial structure multiple times. 
 
-First, let's create a fixation cross trial. This trial displays a trial stimulus (`+`) for `500`ms, and does not allow paarticipants to move forward by pressing a key (`NO_KEYS`).
+### Example: A simple training procedure
+Here's one way we could achieve this kind of grouping and repeating using jsPsych.
+
+First, let's create a fixation cross trial using the `jsPsychHtmlKeyboardResponse` plugin. The trial below displays a trivial HTML stimulus (`+`) for `500`ms, and does not allow participants to move forwards (`NO_KEYS`).
 
 ```js
 var fixationCross = {
@@ -92,7 +95,7 @@ var fixationCross = {
 }
 ```
 
-Second, let's create a stimulus presentation trial using the `jsPsychImageKeyboardResponse` plugin. This trial presents a stimulus for `2.5` seconds.
+Second, let's create a simple image presentation trial using the `jsPsychImageKeyboardResponse` plugin. This trial presents an image stimulus for `2.5` seconds. In order to run this trial, you will need to make sure the image refeerenced in the `stimulus` property is accessible on your computer (You can download `image-1.png` [here](https://github.com/ecl-ucb/290Q/tree/main/assets/labs/L7-timeline-1/page)). 
 
 ```js
 var stimulusTrial = {
@@ -211,12 +214,16 @@ Let's add these trials into our HTML page, replacing the image trial from before
 </html>
 ```
 
+**Checkpoint:** Paste the code above into your `experiment.html` file and then open the page. What do you see? Try changing some parameters and see what happens: change the image presented, change the number of repetitions, or change the correct response on the feedback trial for example.
+
 
 ## Conditional trials
 
-Sometimes we want to be able to control whether a block of trials is part of the timeline or not. For example, suppose our experiment has two treatment conditions. Participants in the **Training** condition (`1`) complete the `trainingProcedure`, while participants in the **No Training** condition (`0`) do not complete the `trainingProcedure`.
+Sometimes it can be useful to control whether a block of trials is part of the timeline or not dynamically. 
 
-JsPsych has a way to handle this kind of *Conditional* behavior, by adding a conditional function to the grouping object (sometimes called a `node` in the experiment). Here's how that could look:
+For example, suppose our experiment has two treatment conditions. Participants in the **Training** condition (`1`) complete the `trainingProcedure`, while participants in the **No Training** condition (`0`) do not complete the `trainingProcedure`.
+
+JsPsych has a way to handle this kind of *Conditional* behavior, by adding a conditional function to the grouping object (sometimes called a `node` in the experiment or a `block` of trials). Here's how that could look when applied to the `trainingProcedure` block:
 
 ```js
 
@@ -235,3 +242,39 @@ var trainingProcedure = {
 	}
 }
 ```
+
+Notice how this works. The property `conditional_function` has a value that is a `function`. The function must return either `false` (skip this block in the timeline) or `true` (include this block in the timeline). The logic you encode in this function will determine when the block is presented versus skipped.
+
+## Looping trials
+
+Simlarly, jsPsych allows us to do something a little more dynamic than simply repeating a block, using a `loop_function`, which controls whether a block repeats on a loop. This could be useful in situations where you don't know ahead of time how many repeats of the trial block you need. 
+
+For example, some studies include a comprehension check that participants must answer correctly in order to proceed. You could use a looping function to check whether the participant has answered correctly, and to repeat the trial block on a loop until some condition is met. 
+
+The same logic could aslo be useful when you need participants to reach a certain level of accuracy in training before moving forward, for example. 
+
+Here's how the `loop_function` could look when aplpied to the `trainingProcedure` block, in a hypothetical scenario where the participant must meet some training accuracy criterion before moving past the training block.
+
+```js
+var trainingCriterionMet = false
+
+var trainingProcedure = {
+  timeline: [fixationCross, stimulusTrial, feedbackTrial],
+  loop_function: function () {
+    if (trainingCriterionMet == 1) {
+      return true
+    } else {
+      return false
+    }
+  }
+}
+```
+
+Here we're just using the variable `trainingCriterionMet` to check whether the participant is ready to move on (`trainingCriterionMet = true`) or not (`trainingCriterionMet = false`), but later in the course we'll see how to consult the participant's data to make these kinds of decisions.
+
+## Excersise
+
+Create a multi-survey block of trials that is added to the end of your experiment and is only included for some participants.
+
+For instance, create a block that combines the [survey-text](https://www.jspsych.org/7.0/plugins/survey-text/) and [survey-likert](https://www.jspsych.org/7.0/plugins/survey-likert/) plugins to assess participants' engagement with the experiment and collect any feedback they have. Use a `conditional_function` in the block to only show the survey block under some conditions.
+
