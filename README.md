@@ -37,7 +37,7 @@ The schedule below is tentative.
 | 01/26/2023 | Thu | Javascript Basics (Part 2)           | Lab 4: [javascript-basics-2.md](assets/labs/L4-intro-javascript-2/javascript-basics-2.md) ||
 | 01/31/2023 | Tue | Creating an experiment with jspsych  | Lab 5: [intro-jsPsych.md](assets/labs/L5-intro-jsPsych/intro-jsPsych.md) |
 | 02/02/2023 | Thu | Catch-up lab                         |                 |
-| 02/07/2023 | Tue | Building a timeline (Part 1)         |                 |
+| 02/07/2023 | Tue | Building a timeline (Part 1)         | Lab 7: [timeline-1.md](assets/labs/L7-timeline-1/timeline-1.md) |
 | 02/09/2023 | Thu | Building a timeline (Part 2)         |                 |
 | 02/14/2023 | Tue | Plugins (Part 1)                     |                 |
 | 02/16/2023 | Thu | Plugins (Part 2)                     |                 |
