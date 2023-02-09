@@ -75,11 +75,7 @@ Here's an example showing how you could use timeline variables to construct a ra
 ```js
 var concretenessTrial = {
     type: jsPsychHtmlSliderResponse,
-    stimulus: `
-    <div style="width:500px;">
-	<p>Please rate the concreteness of the following word:</p>
-	<p><strong>${jsPsych.timelineVariable('word')}</strong></p>
-    </div>`,
+    stimulus: sPsych.timelineVariable('word'),
     require_movement: true,
     button_label: "Submit Judgement",
     labels: ['(0) Abstract', '(1) Concrete']
