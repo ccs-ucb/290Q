@@ -37,15 +37,15 @@ The schedule below is tentative.
 | 01/26/2023 | Thu | Javascript Basics (Part 2)           | Lab 4: [javascript-basics-2.md](assets/labs/L4-intro-javascript-2/javascript-basics-2.md) ||
 | 01/31/2023 | Tue | Creating an experiment with jspsych  | Lab 5: [intro-jsPsych.md](assets/labs/L5-intro-jsPsych/intro-jsPsych.md) |
 | 02/02/2023 | Thu | Catch-up lab                         |                 |
-| 02/07/2023 | Tue | Building a timeline (Part 1)         | Lab 7: [timeline-1.md](assets/labs/L7-timeline-1/timeline-1.md) |
-| 02/09/2023 | Thu | Building a timeline (Part 2)         |                 |
-| 02/14/2023 | Tue | Plugins (Part 1)                     |                 |
-| 02/16/2023 | Thu | Plugins (Part 2)                     |                 |
+| 02/07/2023 | Tue | Building a timeline (Part 1: grouping, looping, and skipping trials)         | Lab 7: [timeline-1.md](assets/labs/L7-timeline-1/timeline-1.md) |
+| 02/09/2023 | Thu | Building a timeline (Part 2: timeline variables)         | Lab 8: [timeline-2.md](assets/labs/L8-timeline-2/timeline-2.md) |
+| 02/14/2023 | Tue | Plugins (Part 1: the anatomy of a plugin)                     |                 |
+| 02/16/2023 | Thu | Plugins (Part 2: creating a new plugin)                     |                 |
 | 02/21/2023 | Tue | Catch-up lab                         |                 |
 | 02/23/2023 | Thu | Catch-up lab                         |                 |
-| 02/28/2023 | Tue | Dynamic parameters                   |                 |
-| 03/02/2023 | Thu | Data: Interaction and storage        |                 |
-| 03/07/2023 | Tue | Data: Interaction and storage        |                 |
+| 02/28/2023 | Tue | Interacting with jsPsych Data |                 |
+| 03/02/2023 | Thu | Saving data to [OSF](https://osf.io/) using [Datapipe](https://pipe.jspsych.org/)         |                 |
+| 03/07/2023 | Tue | Experimental Design        |                 |
 | 03/09/2023 | Thu | Experiment-level Settings and Events |                 |
 | 03/14/2023 | Tue | Catch-up lab                         |                 |
 | 03/16/2023 | Thu | Catch-up lab                         |                 |
