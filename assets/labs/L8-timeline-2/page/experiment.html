@@ -25,34 +25,35 @@
 
       // setup a timeline object 
       var timeline = [];
+var concretenessTrial = {
+    type: jsPsychHtmlSliderResponse,
+    stimulus: function () {
+      var stimulusString = `
+        <div style="width:500px;">
+      <p>Please rate the concreteness of the following word:</p>
+      <p><strong>` + jsPsych.timelineVariable('word') + `</strong></p></div>`
+    return stimulusString
+    },
+    require_movement: true,
+    button_label: "Submit Judgement",
+    labels: ['(0) Abstract', '(1) Concrete']
+};
 
-      var concretenessTrial = {
-          type: jsPsychHtmlSliderResponse,
-          stimulus: `
-          <div style="width:500px;">
-        <p>Please rate the concreteness of the following word:</p>
-        <p><strong>${jsPsych.timelineVariable('word')}</strong></p>
-          </div>`,
-          require_movement: true,
-          button_label: "Submit Judgement",
-          labels: ['(0) Abstract', '(1) Concrete']
-      };
+var feedbackPage = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: '<p>Thank you for your rating. Click continue to proceed.</p>',
+  choices: ['Continue'],
+};
 
-      var feedbackPage = {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: '<p style="color:blue;">Thank you for your rating. Click continue to proceed.</p>',
-        choices: ['Continue'],
-      };
-
-      var concretenessBlock = {
-        timeline: [concretenessTrial, feedbackPage],
-        timeline_variables: [
-            {word: "stone"},
-            {word: "thought"},
-            {word: "shirt"},
-            {word: "democracy"},
-          ]
-      }
+var concretenessBlock = {
+  timeline: [concretenessTrial, feedbackPage],
+  timeline_variables: [
+    {'word': "stone"},
+    {'word': "thought"},
+    {'word': "shirt"},
+    {'word': "democracy"},
+  ]
+}
       // add both trials to the timeline
       timeline.push(concretenessBlock)
 
