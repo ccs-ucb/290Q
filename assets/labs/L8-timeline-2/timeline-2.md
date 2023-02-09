@@ -76,7 +76,7 @@ Here's an example showing how you could use timeline variables to construct a ra
 ```js
 var concretenessTrial = {
     type: jsPsychHtmlSliderResponse,
-    stimulus: sPsych.timelineVariable('word'),
+    stimulus: jsPsych.timelineVariable('word'),
     require_movement: true,
     button_label: "Submit Judgement",
     labels: ['(0) Abstract', '(1) Concrete']
