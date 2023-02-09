@@ -35,6 +35,7 @@ We're going to pivot to using a local copy of jsPsych. Here's how to get started
     <!-- here's how you import plugins from your local jsPsych bundle -->
     <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
     <script src="jspsych/dist/plugin-html-button-response.js"></script>
+    <script src="jspsych/dist/plugin-html-slider-response.js"></script>
     <script src="jspsych/dist/plugin-instructions.js"></script>
 
     <!-- here's how you import the jsPsych style file from your local jsPsych bundle -->
