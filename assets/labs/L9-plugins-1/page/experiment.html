@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    
+    <!-- import jsPsych from your local bundle-->
+    <script src="../../../jspsych/dist/jspsych.js"></script>
+
+    <!-- import the jsPsych style file from your local bundle -->
+    <link href="../../../jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
+    
+    <!-- import our plugin -->
+    <script src="plugin-lexical-decision.js"></script>
+  </head>
+  
+  <body>
+    
+
+    <!-- jsPsych code goes here -->
+    <script type="text/javascript">
+
+      // initialize jsPsych
+      var jsPsych = initJsPsych();
+
+      // setup a timeline object 
+      var timeline = [];
+
+      var lexicalDecisionTrial1 = {
+        type: jsPsychLexicalDecisionTask,
+        target_word: "Chocolate",
+        button_one_label: "Word",
+        button_two_label: "Not a Word"
+      }
+
+      var lexicalDecisionTrial2 = {
+        type: jsPsychLexicalDecisionTask,
+        target_word: "Cotton",
+        button_one_label: "Funny",
+        button_two_label: "Not Funny"
+      }
+
+      // add both trials to the timeline
+      timeline.push(lexicalDecisionTrial1);
+      timeline.push(lexicalDecisionTrial2);
+
+      // run the experiment
+      jsPsych.run(timeline);
+
+
+    </script>
+  </body>
+  
+</html>
