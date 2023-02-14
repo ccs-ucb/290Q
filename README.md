@@ -39,7 +39,7 @@ The schedule below is tentative.
 | 02/02/2023 | Thu | Catch-up lab                         |                 |
 | 02/07/2023 | Tue | Building a timeline (Part 1: grouping, looping, and skipping trials)         | Lab 7: [timeline-1.md](assets/labs/L7-timeline-1/timeline-1.md) |
 | 02/09/2023 | Thu | Building a timeline (Part 2: timeline variables)         | Lab 8: [timeline-2.md](assets/labs/L8-timeline-2/timeline-2.md) |
-| 02/14/2023 | Tue | Plugins (Part 1: the anatomy of a plugin)                     |                 |
+| 02/14/2023 | Tue | Plugins (Part 1: the anatomy of a plugin)                     | Lab 9: [plugins-1.md](assets/labs/L9-plugins-1/plugins-1.md) |
 | 02/16/2023 | Thu | Plugins (Part 2: creating a new plugin)                     |                 |
 | 02/21/2023 | Tue | Catch-up lab                         |                 |
 | 02/23/2023 | Thu | Catch-up lab                         |                 |
