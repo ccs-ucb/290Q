@@ -25,23 +25,15 @@
       // setup a timeline object 
       var timeline = [];
 
-      var lexicalDecisionTrial1 = {
+      var lexicalDecisionTrial = {
         type: jsPsychLexicalDecisionTask,
         target_word: "Chocolate",
         button_one_label: "Word",
         button_two_label: "Not a Word"
       }
 
-      var lexicalDecisionTrial2 = {
-        type: jsPsychLexicalDecisionTask,
-        target_word: "Cotton",
-        button_one_label: "Funny",
-        button_two_label: "Not Funny"
-      }
-
       // add both trials to the timeline
-      timeline.push(lexicalDecisionTrial1);
-      timeline.push(lexicalDecisionTrial2);
+      timeline.push(lexicalDecisionTrial);
 
       // run the experiment
       jsPsych.run(timeline);

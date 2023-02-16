@@ -39,16 +39,16 @@ The schedule below is tentative.
 | 02/02/2023 | Thu | Catch-up lab                         |                 |
 | 02/07/2023 | Tue | Building a timeline (Part 1: grouping, looping, and skipping trials)         | Lab 7: [timeline-1.md](assets/labs/L7-timeline-1/timeline-1.md) |
 | 02/09/2023 | Thu | Building a timeline (Part 2: timeline variables)         | Lab 8: [timeline-2.md](assets/labs/L8-timeline-2/timeline-2.md) |
-| 02/14/2023 | Tue | Plugins (Part 1: the anatomy of a plugin)                     | Lab 9: [plugins-1.md](assets/labs/L9-plugins-1/L9-plugins-overview.md) |
-| 02/16/2023 | Thu | Plugins (Part 2: creating a new plugin)                     |                 |
+| 02/14/2023 | Tue | Plugins (Part 1: the anatomy of a plugin)                     | Lab 9: [plugins-1.md](assets/labs/L9-plugins-1/plugins-overview.md) |
+| 02/16/2023 | Thu | Plugins (Part 2: creating a new plugin)                     | Lab 10: [plugins-2.md](assets/labs/L10-plugins-2/plugins-2.md)                |
 | 02/21/2023 | Tue | Catch-up lab                         |                 |
 | 02/23/2023 | Thu | Catch-up lab                         |                 |
 | 02/28/2023 | Tue | Interacting with jsPsych Data |                 |
 | 03/02/2023 | Thu | Saving data to [OSF](https://osf.io/) using [Datapipe](https://pipe.jspsych.org/)         |                 |
 | 03/07/2023 | Tue | Experimental Design        |                 |
 | 03/09/2023 | Thu | Experiment-level Settings and Events |                 |
-| 03/14/2023 | Tue | Catch-up lab                         |                 |
-| 03/16/2023 | Thu | Catch-up lab                         |                 |
+| 03/14/2023 | Tue | TBD                         |                 |
+| 03/16/2023 | Thu | TBD                         |                 |
 | 03/21/2023 | Tue | Planning Week: your experiment       |                 |
 | 03/23/2023 | Thu | Planning Week: your experiment       |                 |
 | 03/28/2023 | Tue | Spring Recess                        |                 |

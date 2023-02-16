@@ -2,7 +2,7 @@ var jsPsychLexicalDecisionTask = (function (jspsych) {
   "use strict";
 
   const info = {
-    name: "WORD-SIMILARITY",
+    name: "LEXICAL-DECISION",
     parameters: {
       target_word: {
         type: jspsych.ParameterType.STR,
@@ -29,7 +29,6 @@ var jsPsychLexicalDecisionTask = (function (jspsych) {
       // and two buttons
       var html_content = `
         <p>${trial.target_word}</p>
-        <hr>
         <br>
         <button class="jspsych-btn" id="b1">${trial.button_one_label}</button>
         <button class="jspsych-btn" id="b2">${trial.button_two_label}</button>
@@ -37,12 +36,12 @@ var jsPsychLexicalDecisionTask = (function (jspsych) {
       display_element.innerHTML = html_content;
 
       // add event listeners to finish the trial on button click
-      display_element.querySelector("#b1").addEventListener("click", (e) => {
+      display_element.querySelector("#b1").addEventListener("click", function (e) {
         display_element.innerHTML = "";
         this.jsPsych.finishTrial({choice: "button_b1"})
 
       });
-      display_element.querySelector("#b2").addEventListener("click", (e) => {
+      display_element.querySelector("#b2").addEventListener("click", function (e) {
         display_element.innerHTML = "";
         this.jsPsych.finishTrial({choice: "button_b2"})
       });
