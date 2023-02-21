@@ -48,6 +48,8 @@ The HTML page is simpler than previous labs: it imports out custom plugin and de
 </html>
 ``` 
 
+Note that the code above assumes that you have a copy of jspsych stored locally on your computer. The code uses the [relative path](https://www.w3schools.com/html/html_filepaths.asp) (e.g. `"../../../jspsych/dist/jspsych.js"`) to import code from jsPsych. You may need to modify the relative path so that it reflects where jsPsych is stored on your computer.   
+
 ### Custom Plugin
 
 The code inside our custom plugin is copied here. In the next section, we will walk through some different pieces of the code and what they do.
