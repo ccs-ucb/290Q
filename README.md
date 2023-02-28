@@ -43,7 +43,7 @@ The schedule below is tentative.
 | 02/16/2023 | Thu | Plugins (Part 2: creating a new plugin)                     | Lab 10: [plugins-2.md](assets/labs/L10-plugins-2/L10-plugins-2.md)                |
 | 02/21/2023 | Tue | Catch-up lab                         | Lab 11: [review-excercises.md](assets/labs/L11-review-exercises/review-excercises.md)                |
 | 02/23/2023 | Thu | Catch-up lab                         | Lab 12: [review-excercises.md](assets/labs/L11-review-exercises/review-excercises.md)                 |
-| 02/28/2023 | Tue | Interacting with jsPsych Data |  Lab 13: [review-excercises.md](assets/labs/L13-interacting-with-data/jspsych-data.md)               |
+| 02/28/2023 | Tue | Interacting with jsPsych Data |  Lab 13: [jspsych-data.md](assets/labs/L13-interacting-with-data/jspsych-data.md)               |
 | 03/02/2023 | Thu | Saving data to [OSF](https://osf.io/) using [Datapipe](https://pipe.jspsych.org/)         |                 |
 | 03/07/2023 | Tue | Experimental Design        |                 |
 | 03/09/2023 | Thu | Experiment-level Settings and Events |                 |
