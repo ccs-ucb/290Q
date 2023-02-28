@@ -125,11 +125,13 @@ with the line
 var final_trial = jsPsych.data.get().last(2).values();
 ```
 
-Notice te addition of `.values()`. You can access specific properties of the by accessing the values of the data, an even more specific properties. For example, if we wanted to check whether the participant's final response was correct, we could for write:
+Notice te addition of `.values()`. You can access specific properties of the data by accessing the values, and even more specific properties using indexes into the values. For example, if we wanted to check whether the participant's final response was correct, we could for write:
 
 ```js
 var final_trial_correct = jsPsych.data.get().last(1).values()[0].correct
 ```
+
+Here, `jsPsych.data.get()` is accessing the full data object, `.last(1)` is accessing the final trial in the data object, `.values()[0]` is accessing the raw data from the trial, and `.correct` is accessing the specific property `correct` from the trial. 
 
 **Excercise:** Try to acces the `response` variable to find out what key you pressed on the second to last trial. Does it match what you pressed? 
 
