@@ -71,9 +71,9 @@ JsPsych is updating a data object every time a new trial is run. The data object
 
 ### Displaying the data
 
-First, let's start by just looking at the data object at the end of the expeirment. You can always us the function `jsPsych.data.displayData('json');` to display the data on screen. This is mostly useful for debugging. 
+First, let's start by just looking at the data object at the end of the expeirment. You can always use the function `jsPsych.data.displayData('json');` to display the data on screen. This is mostly useful for debugging. 
 
-Here's an example, using the `on_timeline_finish` function to display the data at hthe end of the experiment. Replace the trainingTrials block definition with this new defnition below, and see what happens when the expeirment is finished.
+Here's an example, using the `on_timeline_finish` function to display the data at the end of the experiment. Replace the trainingTrials block definition with this new defnition below, and see what happens when the expeirment is finished.
 
 ```js
   var trainingTrials = {
@@ -85,19 +85,18 @@ Here's an example, using the `on_timeline_finish` function to display the data a
   }
 ```
 
-**Excercise:** Add two extra trials to the experiment. What does the data object look like now?
 **Excercise:** Change the `json` argument in the `jsPsych.data.displayData` to `csv`. What happens now?
+**Excercise:** Add some extra trials to the experiment. How does that change the data structure?
 
 ### Accessing the data
 
-You can access the current data object at any time during the experiment using `jsPsych.data.get()`. 
+You can access the current data object at any time during the experiment using the function `jsPsych.data.get()`. 
 
 #### Accesing data from the most recent n trials
 
-Suppose you wish to check whether the participant got the most recent trial correct or not. JsPsych has a handy way to access that data, using the function `jsPsych.data.getLastTrialData()`.
+Suppose you wish to check whether the participant was correct or not during the most recent trial. JsPsych has a handy way to access that data, using the function `jsPsych.data.getLastTrialData()`.
 
-
-For example, instead of displaing the data on the last trial, let's check whether the final decision was correct. Here's one way to do that. Start by just logging to final trial data to the console. For example, you can replace the training trials block of code with the following block:
+For example, instead of just displaying the data on screen, let's check whether the final decision was correct and log that information to the console. Here's one way to do that. Try replacing the trainingTrials code block with this code:
 
 ```js
 var trainingTrials = {
@@ -110,9 +109,11 @@ var trainingTrials = {
 }
 ```
 
-What structure does the data object have? Check the console to see. If for example you wanted to access the last 2 trials instead of the last single trial, you can do that with the function `jsPsych.data.get().last(n)`, where `n` is the number of trials back you want to access (here `n=2`).
+What structure does the data object have? Check the console to see. 
 
-You could use this here by replacing the line 
+If you wanted to access the last 2 trials instead of the last single trial for example, you can do that with the function `jsPsych.data.get().last(n)`, where `n` is the number of recent trials you want to access (here `n=2`).
+
+You can try this out by replacing the line 
 
 ```js
 var final_trial = jsPsych.data.getLastTrialData()
@@ -124,7 +125,7 @@ with the line
 var final_trial = jsPsych.data.get().last(2).values();
 ```
 
-You can access specific properties of the data too. If we wanted to check whether the participant's final response was correct, we could for example use:
+Notice te addition of `.values()`. You can access specific properties of the by accessing the values of the data, an even more specific properties. For example, if we wanted to check whether the participant's final response was correct, we could for write:
 
 ```js
 var final_trial_correct = jsPsych.data.get().last(1).values()[0].correct
