@@ -4,9 +4,9 @@ Let's try testing out the new [Datapipe library](https://pipe.jspsych.org/) for 
 
 ## Today's JsPsych experiment
 
-For this lab, we will re-use the simple decision-making experiment from lab 13. For convenience the relevant jsPsych experiment is included in this directory (see `experiment.html`). Copy the code from experiment.html into an `experiment.html` file on your computer. 
+For this lab, we will re-use the simple decision-making experiment from lab 13. For convenience the relevant jsPsych experiment is included in this directory (see `experiment.html`). Copy the code from `experiment.html` into a blank `experiment.html` file on your computer. 
 
-Make sure the import paths (e.g. `<script src="../../jspsych/dist/jspsych.js"></script>`) are correctly pointing to your local copy of jsPsych, and that you have the two images (`bunny_1.jpg` and `bunny_2.jpg`) in the same directory as `experiment.html`. 
+Make sure the import paths (e.g. `<script src="../../jspsych/dist/jspsych.js"></script>`) are correctly pointing to your local copy of jsPsych, and that you have the two images (`bunny_1.jpg` and `bunny_2.jpg` from lab 13, downloadable [here](https://drive.google.com/drive/folders/1KllQj6eW2ZckwDvMGA0BR0weDO41RjPW?usp=sharing)) in the same directory as `experiment.html`. 
 
 Ensure that the experiment is running ok on your computer before following the steps below to save data to Datapipe.
 
@@ -35,13 +35,14 @@ Ensure that the experiment is running ok on your computer before following the s
         Quotes from [Datapipe getting started](https://pipe.jspsych.org/getting-started).
 
 3. Add Datapipe to your jsPsych Experiment
-    * Import the jsPsych [plugin for Datapipe](https://github.com/jspsych/jspsych-contrib/blob/main/packages/plugin-pipe/readme.md). You can do this by adding the following line to the head section of your page `experiment.html`, as you would to import any other jsPsych plugin.
+    * Import the jsPsych [plugin for Datapipe](https://github.com/jspsych/jspsych-contrib/blob/main/packages/plugin-pipe/readme.md). You can do this by adding the following line to the head section of your page `experiment.html`, as you would to import any other jsPsych plugin. 
+
 
     ```html
     <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
     ```
 
-    The documentation for the plugin is [can be found here](https://github.com/jspsych/jspsych-contrib/blob/main/packages/plugin-pipe/readme.md). 
+    The documentation for the plugin [can be found here](https://github.com/jspsych/jspsych-contrib/blob/main/packages/plugin-pipe/readme.md). 
 
     * Add a final trial to your experiment that saves the data to Datapipe using the plugin. Here is an example of that trial:
 
