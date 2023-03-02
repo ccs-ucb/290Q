@@ -25,6 +25,12 @@
       ]
 
       var random_stimuli = jsPsych.randomization.sampleWithReplacement(stimuli, 4)
+      // console.log(random_stimuli)
+      // Array(4)
+      // 0: {stimulus: 'images/bunny_1.jpg', key_answer: 'f'}
+      // 1: {stimulus: 'images/bunny_1.jpg', key_answer: 'f'}
+      // 2: {stimulus: 'images/bunny_2.jpg', key_answer: 'j'}
+      // 3: {stimulus: 'images/bunny_2.jpg', key_answer: 'j'}
 
       var decisionTrial = {
           type: jsPsychCategorizeImage,
