@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    
+    <!-- You may need to change the paths below to match the location of your local copy of jspsych -->
+    <script src="../../jspsych/dist/jspsych.js"></script>
+    <link href="../../jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
+    <script src="../../jspsych/dist/plugin-categorize-image.js"></script>
+  
+  </head>
+  
+  <body>
+    <script type="text/javascript">
+
+      // initialize jsPsych
+      var jsPsych = initJsPsych();
+      
+      // create a participant ID
+      // and add it to the data object
+      var participant_id = jsPsych.randomization.randomID(8);
+      jsPsych.data.addProperties({participant_id: participant_id});
+
+      // setup a timeline object 
+      var timeline = [];
+
+      // create the stimuli <> response pairs
+      // and take a random sample of these pairs 
+      // the sampled pairs will be used to create a timeline 
+      var stimuli = [
+        {"stimulus": 'bunny_1.jpg', 'key_answer': 'f'},
+        {"stimulus": 'bunny_2.jpg', 'key_answer': 'j'},
+      ]
+      var random_stimuli = jsPsych.randomization.sampleWithReplacement(stimuli, 4)
+
+      // decision-making trial
+      var decisionTrial = {
+          type: jsPsychCategorizeImage,
+          choices: ['f', 'j'],
+          correct_text: "<p class='prompt'>Correct!</p>",
+          incorrect_text: "<p class='prompt'>Incorrect.</p>",
+          feedback_duration: 1000,
+          prompt: "<p>Please press either f or j.</p>",
+          stimulus: jsPsych.timelineVariable('stimulus'),
+          key_answer: jsPsych.timelineVariable('key_answer'),
+      }
+
+      // create multiple trials
+      var trainingTrials = {
+        timeline: [decisionTrial],
+        timeline_variables: random_stimuli,
+      }
+
+      // add the trials to the timeline
+      timeline.push(trainingTrials);
+
+      // run the experiment
+      jsPsych.run(timeline);
+    </script>
+  </body>
+  
+</html>
