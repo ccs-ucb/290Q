@@ -47,10 +47,10 @@ The schedule below is tentative.
 | 03/02/2023 | Thu | Saving data to [OSF](https://osf.io/) using [Datapipe](https://pipe.jspsych.org/)         | Lab 14: [testing-datapipe.md](assets/labs/L14-datapipe-osf/testing-datapipe.md)                |
 | 03/07/2023 | Tue | Experimental Design        | Lab 15: [experiment-design.md](assets/labs/L15-experiment-design/experiment-design.md)                |
 | 03/09/2023 | Thu | Reading TBD |                 |
-| 03/14/2023 | Tue | Planning Week: your experiment                         |                 |
-| 03/16/2023 | Thu | Planning Week: your experiment                         |                 |
-| 03/21/2023 | Tue | Planning Week: your experiment       |                 |
-| 03/23/2023 | Thu | Planning Week: your experiment       |                 |
+| 03/14/2023 | Tue | Planning Week: your experiment (individal meetings)                         |                 |
+| 03/16/2023 | Thu | Planning Week: your experiment (individal meetings)                         |                 |
+| 03/21/2023 | Tue | Planning Week: your experiment (individal meetings)       |                 |
+| 03/23/2023 | Thu | Planning Week: your experiment (individal meetings)       |                 |
 | 03/28/2023 | Tue | Spring Recess                        |                 |
 | 03/30/2023 | Thu | Spring Recess                        |                 |
 | 04/04/2023 | Tue | Hosting an experiment online         |                 |
