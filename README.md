@@ -45,10 +45,10 @@ The schedule below is tentative.
 | 02/23/2023 | Thu | Catch-up lab                         | Lab 12: [review-excercises.md](assets/labs/L11-review-exercises/review-excercises.md)                 |
 | 02/28/2023 | Tue | Interacting with jsPsych Data |  Lab 13: [jspsych-data.md](assets/labs/L13-interacting-with-data/jspsych-data.md)               |
 | 03/02/2023 | Thu | Saving data to [OSF](https://osf.io/) using [Datapipe](https://pipe.jspsych.org/)         | Lab 14: [testing-datapipe.md](assets/labs/L14-datapipe-osf/testing-datapipe.md)                |
-| 03/07/2023 | Tue | Experimental Design        |                 |
-| 03/09/2023 | Thu | Experiment-level Settings and Events |                 |
-| 03/14/2023 | Tue | TBD                         |                 |
-| 03/16/2023 | Thu | TBD                         |                 |
+| 03/07/2023 | Tue | Experimental Design        | Lab 15: [experiment-design.md](assets/labs/L15-experiment-design/experiment-design.md)                |
+| 03/09/2023 | Thu | Reading TBD |                 |
+| 03/14/2023 | Tue | Planning Week: your experiment                         |                 |
+| 03/16/2023 | Thu | Planning Week: your experiment                         |                 |
 | 03/21/2023 | Tue | Planning Week: your experiment       |                 |
 | 03/23/2023 | Thu | Planning Week: your experiment       |                 |
 | 03/28/2023 | Tue | Spring Recess                        |                 |
