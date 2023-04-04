@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bunny Experiment</title>
+
+    <script src="jspsych/dist/jspsych.js"></script>
+    <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
+    <script src="jspsych/dist/plugin-categorize-image.js"></script>
+    <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
+  </head>
+  
+  <body>
+    <script type="text/javascript">
+
+      // initialize jsPsych
+      var jsPsych = initJsPsych({
+        on_finish: function (data) {
+          jsPsych.data.displayData('json')
+        }}
+      );
+
+      var prolific_id = jsPsych.data.getURLVariable('PROLIFIC_PID'); 
+      jsPsych.data.addProperties({prolific_pid: prolific_id});
+
+      var timeline = [];
+
+      var stimuli = [
+        {"stimulus": 'bunny_1.jpg', 'key_answer': 'f'},
+        {"stimulus": 'bunny_2.jpg', 'key_answer': 'j'},
+      ]
+     var random_stimuli = jsPsych.randomization.sampleWithReplacement(stimuli, 4)
+
+      // decision-making trial
+      var decisionTrial = {
+          type: jsPsychCategorizeImage,
+          choices: ['f', 'j'],
+          correct_text: "<p class='prompt'>Correct!</p>",
+          incorrect_text: "<p class='prompt'>Incorrect.</p>",
+          feedback_duration: 1000,
+          prompt: "<p>Please press either f or j.</p>",
+          stimulus: jsPsych.timelineVariable('stimulus'),
+          key_answer: jsPsych.timelineVariable('key_answer'),
+      }
+
+      // create multiple trials
+      var trainingTrials = {
+        timeline: [decisionTrial],
+        timeline_variables: random_stimuli,
+      }
+
+      // add the trials to the timeline
+      timeline.push(trainingTrials);
+
+
+      // run the experiment
+      jsPsych.run(timeline);
+    </script>
+  </body>
+  
+</html>

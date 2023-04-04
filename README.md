@@ -53,14 +53,14 @@ The schedule below is tentative.
 | 03/23/2023 | Thu | Planning Week: your experiment (individal meetings)       |                 |
 | 03/28/2023 | Tue | Spring Recess                        |                 |
 | 03/30/2023 | Thu | Spring Recess                        |                 |
-| 04/04/2023 | Tue | Hosting an experiment online         |                 |
-| 04/06/2023 | Thu | Hosting an experiment online         |                 |
-| 04/11/2023 | Tue | Interacting with prolific/mturk      |                 |
-| 04/13/2023 | Thu | Interacting with prolific/mturk      |                 |
-| 04/18/2023 | Tue | Building your experiement            |                 |
-| 04/20/2023 | Thu | Building your experiement            |                 |
-| 04/25/2023 | Tue | Building your experiement            |                 |
-| 04/27/2023 | Thu | Building your experiement            |                 | 
+| 04/04/2023 | Tue | Hosting your experiment online using Github Pages | Lab 16: [hosting-ghp.md](assets/labs/L16-hosting-ghp/hosting-ghp.md)                |
+| 04/06/2023 | Thu | Building your experiment         |                 |
+| 04/11/2023 | Tue | Building your experiment      |                 |
+| 04/13/2023 | Thu | Building your experiment      |                 |
+| 04/18/2023 | Tue | Building your experiment            |                 |
+| 04/20/2023 | Thu | Building your experiment            |                 |
+| 04/25/2023 | Tue | Building your experiment            |                 |
+| 04/27/2023 | Thu | Building your experiment            |                 | 
 
 
 ## Assessments 
