@@ -7,6 +7,7 @@
     <script src="../../jspsych/dist/jspsych.js"></script>
     <link href="../../jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
     <script src="../../jspsych/dist/plugin-categorize-image.js"></script>
+    <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
   
   </head>
   
@@ -53,6 +54,22 @@
 
       // add the trials to the timeline
       timeline.push(trainingTrials);
+
+      var exprimentID = "Gvdbt6zjVOOt";
+      var save_data_trial = {
+        type: jsPsychPipe,
+        action: "save",
+        experiment_id: exprimentID,
+        filename: `experiment_data.csv`,
+        data_string: function () {
+          return jsPsych.data.get().csv()
+        }
+      };
+      timeline.push(save_data_trial)
+
+      // Preloading media
+      // Dynamic variable: providing feedback and updating e.g. difficulty
+      // Progress bar
 
       // run the experiment
       jsPsych.run(timeline);
