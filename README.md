@@ -54,19 +54,20 @@ The schedule below is tentative.
 | 03/28/2023 | Tue | Spring Recess                        |                 |
 | 03/30/2023 | Thu | Spring Recess                        |                 |
 | 04/04/2023 | Tue | Hosting your experiment online using Github Pages | Lab 16: [hosting-ghp.md](assets/labs/L16-hosting-ghp/hosting-ghp.md)                |
-| 04/06/2023 | Thu | Building your experiment         |                 |
-| 04/11/2023 | Tue | Building your experiment      |                 |
-| 04/13/2023 | Thu | Building your experiment      |                 |
-| 04/18/2023 | Tue | Building your experiment            |                 |
-| 04/20/2023 | Thu | Building your experiment            |                 |
-| 04/25/2023 | Tue | Building your experiment            |                 |
-| 04/27/2023 | Thu | Building your experiment            |                 | 
+| 04/06/2023 | Thu | Building your experiment         | Asynchronous lab               |
+| 04/11/2023 | Tue | Building your experiment      | Synchronous zoom Lab                |
+| 04/13/2023 | Thu | Building your experiment      | Synchronous in-person Lab             |
+| 04/18/2023 | Tue | Building your experiment            | Asynchronous lab                 |
+| 04/20/2023 | Thu | Building your experiment            | Synchronous in-person Lab                |
+| 04/25/2023 | Tue | Building your experiment            | Synchronous in-person Lab                |
+| 04/27/2023 | Thu | Building your experiment            | Synchronous in-person Lab                | 
+| 05/08/2023 | Fri | Class Project Due            | Submit on 290Q bCourses                | 
 
 
 ## Assessments 
 
 ### Course Project
-Build an experiment that contributes to your research. Due at the end of the course, probably Friday 28th April. I will be your first participant (unless your experiment is really long): submit code that I can run, and a single page text summary of your experiment. More details to follow.
+Build an experiment that contributes to your research. Due at the end of the course, probably Friday May 8th. I will be your first participant (unless your experiment is really long): submit code and a project summary pdf. More details about the assignment can be found here.
 **Grade Proportion**: 75%
 
 ### Attendance, Engagement, Peer Support
