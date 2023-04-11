@@ -61,7 +61,7 @@ The schedule below is tentative.
 | 04/20/2023 | Thu | Building your experiment            | Synchronous in-person Lab                |
 | 04/25/2023 | Tue | Building your experiment            | Synchronous in-person Lab                |
 | 04/27/2023 | Thu | Building your experiment            | Synchronous in-person Lab                | 
-| 05/08/2023 | Fri | Class Project Due            | Submit on 290Q bCourses                | 
+| 05/08/2023 | Fri | Class Project Due [project details here](assets/assignment/290Q-project-guidelines.md)           | Submit on 290Q bCourses                | 
 
 
 ## Assessments 
