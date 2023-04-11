@@ -67,7 +67,7 @@ The schedule below is tentative.
 ## Assessments 
 
 ### Course Project
-Build an experiment that contributes to your research. Due at the end of the course, probably Friday May 8th. I will be your first participant (unless your experiment is really long): submit code and a project summary pdf. More details about the assignment can be found here.
+Build an experiment that contributes to your research. Due at the end of the course, probably Friday May 8th. I will be your first participant (unless your experiment is really long): submit code and a project summary pdf. More details about the assignment [can be found here](assets/assignment/290Q-project-guidelines.md).
 **Grade Proportion**: 75%
 
 ### Attendance, Engagement, Peer Support
